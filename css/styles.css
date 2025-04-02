@@ -1,0 +1,123 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 11pt;
+    
+}
+
+h2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24pt;
+}
+
+code {
+    font-family: Doto, sans-serif;
+    font-weight: 700;
+    font-size: 10pt;
+    background-color: #cfe8d1;
+    padding: 0px 3px 0px 3px;
+}
+
+pre {
+    border-right: white dashed 3px;
+    border-left: white dashed 3px;
+    font-family: Doto, sans-serif;
+    font-weight: 700;
+    font-size: 10pt;
+    background-image: linear-gradient(0deg, #cfe8d1 48px, #f4f5f0 48px);
+    background-size: 50px 96px;
+    width: 100%;
+    margin: 0px;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
+
+
+.pre-container {
+    display: flex;
+    margin: 5px;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(154,160,185,.05), 0 5px 10px rgba(166,173,201,.2);
+
+}
+
+.tear-off-div {    
+    width: 30px;
+    margin: 0px;
+    background-image: radial-gradient(transparent 5px, rgba(154,160,185,.5) 35%, rgba(154,160,185,.5) 5%, #f4f5f0 0);
+    background-size: 30px 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+marquee {
+    font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  font-style: normal;
+        animation: colorRotate 0.5s linear 0s infinite;
+    
+    }
+    
+    @keyframes colorRotate {
+        from {
+            color: rgb(255, 0, 0);
+        }
+        16.6% {
+            color: rgb(255, 0, 255);
+        }
+        33.3% {
+            color: rgb(0, 0, 255);
+        }
+        50% {
+            color: rgb(0, 255, 255);
+        }
+        66.6% {
+            color: rgb(0, 255, 0);
+        }
+        83.3% {
+            color: rgb(255, 255, 0);
+        }
+        to {
+            color: rgb(255, 0, 0);
+        }
+    }
+
+    button {
+        font-family: fixedsys, consolas, monospace;
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        border: 3px solid;
+        padding: 0.25em 0.5em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      button:active {
+        background-color: rgb(10, 26, 255);
+        color: white;
+        box-shadow: 0px 0px 0px 0px;
+        top: 5px;
+        left: 5px;
+      }
+      
+      @media (min-width: 768px) {
+        button {
+          padding: 0.25em 0.75em;
+        }
+      }
+}
