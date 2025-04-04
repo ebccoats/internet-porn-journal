@@ -33,6 +33,9 @@ pre {
     margin: 0px;
 }
 
+img {
+    box-shadow: 0 2px 5px rgba(154,160,185,.05), 0 5px 10px rgba(166,173,201,.2);
+}
 /* * {
     outline: 1px solid red;
 } */
@@ -58,10 +61,34 @@ pre {
     justify-content: center;
 }
 
+span {
+    font-family: "Wix Madefor Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 24pt;
+  font-style: normal;
+}
+
+.header {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 18pt;
+    font-style: normal; 
+}
+
+.text {
+        font-family: "Wix Madefor Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-size: 12pt;
+        font-style: normal; 
+}
+
 marquee {
     font-family: "Monoton", sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 24pt;
   font-style: normal;
         animation: colorRotate 0.5s linear 0s infinite;
     
