@@ -1,3 +1,7 @@
+:root {
+    
+}
+
 body {
     
     font-family: "Wix Madefor Text", sans-serif;
@@ -5,7 +9,7 @@ body {
     font-weight: 100;
     font-size: 12pt;
     font-style: normal;
-    line-height: 150%;
+    /* line-height: 150%; */
 
     text-align: justify;
     hyphens: auto;
@@ -16,6 +20,9 @@ body {
 
     padding: 0px;
     margin: 0px;
+
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
 }
 
 .wall {
@@ -32,7 +39,7 @@ body {
     padding: 10px 10px 10px 30px;
     width: 100%;
     background-color: white;
-    position:absolute;
+    position: fixed;
 }
 
 .logo-title {
@@ -42,6 +49,24 @@ body {
     cursor: pointer;
     user-select: none;
     
+}
+
+.quote-text {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: 20%; /* why doesn't this work here? */
+}
+
+.quote-sayer {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 8pt;
+    font-style: normal;
+    line-height: 20%; /* why doesn't this work here? */ 
 }
 
 .museum-card {
