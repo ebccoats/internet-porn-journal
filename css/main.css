@@ -100,3 +100,9 @@ body {
     line-height: 100%;
     width: 1000px;
 }
+
+.drifting-obscenity {
+    font-family: 'VT323', Courier, monospace;
+    background-color: white;
+    position: absolute;
+}
