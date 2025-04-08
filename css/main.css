@@ -1,0 +1,77 @@
+body {
+    
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 12pt;
+    font-style: normal;
+    line-height: 150%;
+
+    text-align: justify;
+    hyphens: auto;
+
+    background-image: url(../assets/wall-bg-higher-contrast.png);
+    background-size: cover;
+    background-color: white;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.wall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+    
+}
+
+.topbar {
+    margin: 0px;
+    padding: 10px 10px 10px 30px;
+    width: 100%;
+    background-color: white;
+    position:absolute;
+}
+
+.logo-title {
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 125%;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.museum-card {
+    background-image: none;
+    background-color: white;
+    overflow: auto;
+    width: 60%;
+
+    box-shadow: 1px 1px 3px rgba(110, 110, 93, 0.2), 
+                5px 5px 5px rgba(110, 110, 93, 0.2),
+                
+
+                2px 2px 0 rgba(255, 255, 255),
+                1.5px 1.5px 0 rgba(255, 255, 255),
+                1px 1px 0 rgba(255, 255, 255),
+                0.5px 0.5px 0 rgba(255, 255, 255);
+
+}
+
+.crt-beige {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D0C1;
+    height: 500px;
+    width: 80%;
+}
+
+.nude {
+    font-size: 8pt;
+    line-height: 100%;
+    width: 1000px;
+}
