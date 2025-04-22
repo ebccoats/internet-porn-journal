@@ -217,6 +217,33 @@
     <div class="tear-off-div"></div>
 </div>
 
+<h2>4/22/25 - back to it</h2>
+<p>Ok it's been a minute since I worked on this. The triumph of getting a database on Neon and the page on Fly.io was so incredible that I just coasted on that for two weeks. I still don't super understand databases but I do understand now the relationship of where the backend lives, where the database lives, and how the backend uses an ORM to talk to the database. I think that because I only ever hacked together databases locally, I was struggling to understand how they could exist alongside the backend, or didn't understand that they could exist elsewhere? Like many things with coding, it's kind of hard to grasp what it was exactly that made the concept incomprehensible two weeks ago.</p>
+
+<p>I took today off work to focus on getting some momentum on the project again. I'm going to start with getting this goofy little thing where ascii naughty bits float around when you click on the title of the gallery page.</p>
+
+<p>Before starting on it, here is how I think I'll approach it:
+    <ul>
+        <li>Use codepen so the code isn't tangled with anything else</li>
+        <li>Focus on getting the movement right first</li>
+        <li>Use CSS absolute position instead of canvas elements</li>
+        <li>The goal behavior is for an ascii bit to appear, float around, and fade away.</li>
+    </ul>
+</p>
+<p>Except yay it seems like codepen is down or my internet is down. So doing it locally instead.</p>
+<ul>
+    <li>Realizing that I need to make a frame counter for when to move the css elements.</li>
+    <li>As I'm working on it, ChatGPT is annoyingly giving me event properties that are not accurate (like event.clickX and event.clickY) but I switched to clientX clientY by looking at console.log(event)</li>
+    <li>Well, that took a long time. I ran into problems where I was asking ChatGPT for "floaty animation" and it was giving me weird equations that looked terrible. Eventually I dug around on my own and figured out that what I wanted was each object to follow its own sine wave.</li>
+</ul>
+<div>
+<div class="logo-title">
+    <span id="logo-title">Here click here</span>
+</div>
+</div>
+<p>I'm still not totally happy with the motion but this isn't even a critical piece of the project anyway. Time well spent? >:( ALSO UGH IT WON'T WORK HERE ON THE JOURNAL PAGE probably because of position: absolute... so frustrating. I'll have to go back and clean it up sometime later because I AM FRUSTRATED NOW</p>
+
+
 
 
 

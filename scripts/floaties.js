@@ -1,18 +1,3 @@
-const ladyImage = document.getElementById("sexylady");
-ladyImage.style.visibility = 'hidden';
-
-const showLady = document.getElementById("activate-sexy-lady");
-showLady.onclick = function() {
-    ladyImage.style.visibility = 'visible';
-    ladyImage.src = "journal-assets/lil-nudie.png";
-}
-
-const asciiLady = document.getElementById("asciivate-sexy-lady");
-asciiLady.onclick = function() {
-    ladyImage.style.visibility = 'visible';
-    ladyImage.src = "journal-assets/ascii-art.png";
-}
-
 
 
 
@@ -30,7 +15,7 @@ class Floaties {
         "╰⋃╯"
     ]; 
     activeFloaties = [];
-    timing = 500; //milliseconds
+    timing = 100; //milliseconds
     intervalId;
     parent;
     constructor (parent) {
@@ -47,7 +32,7 @@ class Floaties {
 
     makeFloatie = (x, y) => {
        const randomPornmoji = this.getRandomPornmoji();
-       const randomLife = Math.floor(Math.random() * 20);
+       const randomLife = Math.floor(Math.random() * 50);
        
        function getRandomArbitrary(min, max) {
         return Math.random() * (max - min) + min;
@@ -71,6 +56,7 @@ class Floaties {
         speed: getRandomArbitrary(10, 30),
         lifespan: randomLife
        }
+       newFloatie.style.transition = ".4s";
        newFloatie.style.top = `${y}px`;
        newFloatie.style.left = `${x}px`;
 
@@ -120,7 +106,6 @@ window.onload = function() {
         mainTitle.onclick = function(event) {
             const x = event.pageX;
             const y = event.pageY;
-            console.log(event);
             floaties.makeFloatie(x, y);
         }
     }

@@ -201,6 +201,37 @@ marquee {
         }
     }
 
-    
 
+    .museum-card {
+        background-image: none;
+        background-color: white;
+        overflow: auto;
+        width: 60%;
+    
+        box-shadow: 1px 1px 3px rgba(110, 110, 93, 0.2), 
+                    5px 5px 5px rgba(110, 110, 93, 0.2),
+                    
+    
+                    2px 2px 0 rgba(255, 255, 255),
+                    1.5px 1.5px 0 rgba(255, 255, 255),
+                    1px 1px 0 rgba(255, 255, 255),
+                    0.5px 0.5px 0 rgba(255, 255, 255);
+    
+    }
+    .drifting-obscenity {
+        font-family: 'VT323', Courier, monospace;
+        background-color: white;
+        font-size: 10pt;
+        position: absolute;
+    }
+    
+    .logo-title {
+        font-weight: 600;
+        font-size: 12pt;
+        line-height: 125%;
+        cursor: pointer;
+        user-select: none;
+        width: fit-content;
+        
+    }
       

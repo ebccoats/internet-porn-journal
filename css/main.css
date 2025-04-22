@@ -2,6 +2,10 @@
     
 }
 
+/* * {
+    outline: 1px solid red;
+  } */
+
 body {
     
     font-family: "Wix Madefor Text", sans-serif;
@@ -48,6 +52,7 @@ body {
     line-height: 125%;
     cursor: pointer;
     user-select: none;
+    width: fit-content;
     
 }
 
@@ -104,5 +109,6 @@ body {
 .drifting-obscenity {
     font-family: 'VT323', Courier, monospace;
     background-color: white;
+    font-size: 10pt;
     position: absolute;
 }
