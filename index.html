@@ -70,13 +70,13 @@ Museum staff hate it, but it's usually possible.
 <div class="tear-off-div"></div>
 <pre>
     
-print("hello world")
+        print("hello world")
 
-print("this is how code blocks will be styled")
-print("it took multiple hours to make this in css")
+        print("this is how code blocks will be styled")
+        print("it took multiple hours to make this in css")
 
-print("and I have no plans to use this in the actual project...")
-print("actually it could be cool as the donations leaderboard?")
+        print("and I have no plans to use this in the actual project...")
+        print("actually it could be cool as the donations leaderboard?")
 
 </pre>
 <div class="tear-off-div"></div>
@@ -148,57 +148,57 @@ print("actually it could be cool as the donations leaderboard?")
 <div class="pre-container">
 <div class="tear-off-div"></div>
 <pre>
-.button {
-    cursor: pointer;
-    border-radius: 999px;
-    border: 1px solid black;
-    width: fit-content;
-    padding: 9px 17px 12px 17px;
-    font-family: "Wix Madefor Text", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-size: 14pt;
-    font-style: normal; 
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-.button:active {
-    transition: all 0.2s ease-out allow-discrete;
-    background-color: rgb(0, 0, 255);
-    color: #ebebff;
-    border-color: rgb(0, 0, 255);
-}
-@media (max-width: 768px) {
     .button {
-        transition: all 0.2s ease-out allow-discrete;
-        font-size: 12pt;
-        padding: 9px 15px 11px 15px;
-        
-    }
-}
-@media (min-width: 769px) {
-    .button {
-        transition: all 0.2s ease-out allow-discrete;
-        font-size: 14pt;
+        cursor: pointer;
+        border-radius: 999px;
+        border: 1px solid black;
+        width: fit-content;
         padding: 9px 17px 12px 17px;
-        
+        font-family: "Wix Madefor Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-size: 14pt;
+        font-style: normal; 
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
     }
-}
+    .button:active {
+        transition: all 0.2s ease-out allow-discrete;
+        background-color: rgb(0, 0, 255);
+        color: #ebebff;
+        border-color: rgb(0, 0, 255);
+    }
+    @media (max-width: 768px) {
+        .button {
+            transition: all 0.2s ease-out allow-discrete;
+            font-size: 12pt;
+            padding: 9px 15px 11px 15px;
+            
+        }
+    }
+    @media (min-width: 769px) {
+        .button {
+            transition: all 0.2s ease-out allow-discrete;
+            font-size: 14pt;
+            padding: 9px 17px 12px 17px;
+            
+        }
+    }
 
-a {
-    text-decoration: none;
-}
-a:link{
-    color: black;
-}
-a:visited{
-    color:black;
-}
-.button a:active {
-    color: white;
-    transition: all 0.2s ease-out allow-discrete;
-}
+    a {
+        text-decoration: none;
+    }
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color:black;
+    }
+    .button a:active {
+        color: white;
+        transition: all 0.2s ease-out allow-discrete;
+    }
 </pre>
 <div class="tear-off-div"></div>
 </div>
@@ -208,12 +208,12 @@ a:visited{
 <div class="tear-off-div"></div>
 <pre>
 
-body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 11pt; 
-    text-align: justify;
-    hyphens: auto;
-}
+    body {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 11pt; 
+        text-align: justify;
+        hyphens: auto;
+    }
 </pre>
 <div class="tear-off-div"></div>
 </div>
@@ -282,12 +282,12 @@ body {
 <h2>5/14/25 - Making javascript basics for Craigslist edition</h2>
 <p>Today I'm going to spend a couple of hours on making the minimal javascript that I'll need in order to make the craigslist version of the site work. That is:</p>
 <ul>
-<li>Popup dialog function (show dialog, communicate that it's been shown to state)</li>
-<li>State object (for which dialog to show)</li>
-<li>Text selection event (for ascii text)</li>
-<li>Position the porn image to a good spot in the iframe (use <code>window.scrollTo</code>?)</li>
-<li>How does iframe talk to parent page? <code>window.parent.postMessage()</code> probably works </li>
-<li>Make the computer turn off (triggered by state)</li>
+    <li>Popup dialog function (show dialog, communicate that it's been shown to state)</li>
+    <li>State object (for which dialog to show)</li>
+    <li>Text selection event (for ascii text)</li>
+    <li>Position the porn image to a good spot in the iframe (use <code>window.scrollTo</code>?)</li>
+    <li>How does iframe talk to parent page? <code>window.parent.postMessage()</code> probably works </li>
+    <li>Make the computer turn off (triggered by state)</li>
 </ul>
 
 <p>So here is the popup: <button id="popup">Popup</button></p>
@@ -300,11 +300,11 @@ body {
 <div class="tear-off-div"></div>
 <pre>
 
-&lt;button id="popup"&gt;Popup&lt;/button&gt;&lt;/p&gt;
-&lt;dialog id="dialog-popup"&gt;
-    &lt;p&gt;Do not touch the artwork!&lt;/p&gt;
-    &lt;button id="dialog-button"&gt;OK&lt;/button&gt;
-&lt;/dialog&gt;
+    &lt;button id="popup"&gt;Popup&lt;/button&gt;&lt;/p&gt;
+    &lt;dialog id="dialog-popup"&gt;
+        &lt;p&gt;Do not touch the artwork!&lt;/p&gt;
+        &lt;button id="dialog-button"&gt;OK&lt;/button&gt;
+    &lt;/dialog&gt;
 
 </pre>
 <div class="tear-off-div"></div>
@@ -315,18 +315,18 @@ body {
 <div class="tear-off-div"></div>
 <pre>
 
-const dialogPopup = document.getElementById("dialog-popup");
+    const dialogPopup = document.getElementById("dialog-popup");
 
-const dialogButton = document.getElementById("dialog-button");
-dialogButton.addEventListener("click", function(event) {
-    dialogPopup.close();
-});
+    const dialogButton = document.getElementById("dialog-button");
+    dialogButton.addEventListener("click", function(event) {
+        dialogPopup.close();
+    });
 
-const popupButton = document.getElementById("popup");
-popupButton.addEventListener("click", function(event) {
-    dialogPopup.showModal();
+    const popupButton = document.getElementById("popup");
+    popupButton.addEventListener("click", function(event) {
+        dialogPopup.showModal();
 
-});
+    });
 
 </pre>
 <div class="tear-off-div"></div>
@@ -340,52 +340,52 @@ popupButton.addEventListener("click", function(event) {
 <div class="tear-off-div"></div>
 <pre>
 
-// stateful curator
-let curatorState = {
-    annoyance: 0,
-    dialog: {
-        0: "Please refrain from clicking the button; the wear and tear piles up quickly.",
-        1: "It is a fascinating button, but please do not touch the works in this exhibit.",
-        2: "Look with your eyes not your cursor THANK YOU :)",
-        3: "Stop clicking the button.",
-        4: "You don't care about ruining this historical button. You hardly deserve the privilege of seeing it.",
-        5: "This is your last chance to stop clicking the button. Look at the rest of the page or else.",
-        6: "Your button-clicking privileges have been revoked. The button is now closed for clicking." 
-    },
-    state_display: {
-        0: "not annoyed",
-        1: "miffed",
-        2: "irritated",
-        3: "seriously offended",
-        4: "so over it",
-        5: "kicking you out",
-        6: "you have been kicked out, you have lost the privilege of clicking the historical button"
+    // stateful curator
+    let curatorState = {
+        annoyance: 0,
+        dialog: {
+            0: "Please refrain from clicking the button; the wear and tear piles up quickly.",
+            1: "It is a fascinating button, but please do not touch the works in this exhibit.",
+            2: "Look with your eyes not your cursor THANK YOU :)",
+            3: "Stop clicking the button.",
+            4: "You don't care about ruining this historical button. You hardly deserve the privilege of seeing it.",
+            5: "This is your last chance to stop clicking the button. Look at the rest of the page or else.",
+            6: "Your button-clicking privileges have been revoked. The button is now closed for clicking." 
+        },
+        state_display: {
+            0: "not annoyed",
+            1: "miffed",
+            2: "irritated",
+            3: "seriously offended",
+            4: "so over it",
+            5: "kicking you out",
+            6: "you have been kicked out, you have lost the privilege of clicking the historical button"
+        }
     }
-}
 
-const curatorStateDisplay = document.getElementById("state-display");
+    const curatorStateDisplay = document.getElementById("state-display");
 
-const stateDialog = document.createElement('dialog');
-document.body.appendChild(stateDialog);
+    const stateDialog = document.createElement('dialog');
+    document.body.appendChild(stateDialog);
 
-const stateDialogButton = document.createElement('button');
-stateDialogButton.innerHTML = "OK";
-stateDialogButton.addEventListener("click", function(event) {
-    stateDialog.close();
-})
+    const stateDialogButton = document.createElement('button');
+    stateDialogButton.innerHTML = "OK";
+    stateDialogButton.addEventListener("click", function(event) {
+        stateDialog.close();
+    })
 
-const annoyCurator = document.getElementById("state");
-annoyCurator.addEventListener("click", function(event) {
-    if (curatorState.annoyance === Object.keys(curatorState.dialog).length) {
-        return;
-    }
-    stateDialog.innerHTML = `&lt;p&gt;${curatorState.dialog[curatorState.annoyance]}&lt;/p&gt;`;
-    stateDialog.appendChild(stateDialogButton);
-    stateDialog.showModal();
-    curatorStateDisplay.innerHTML = `Curator state: ${curatorState.state_display[curatorState.annoyance]}`;
-    curatorState.annoyance += 1;
-    
-});
+    const annoyCurator = document.getElementById("state");
+    annoyCurator.addEventListener("click", function(event) {
+        if (curatorState.annoyance === Object.keys(curatorState.dialog).length) {
+            return;
+        }
+        stateDialog.innerHTML = `&lt;p&gt;${curatorState.dialog[curatorState.annoyance]}&lt;/p&gt;`;
+        stateDialog.appendChild(stateDialogButton);
+        stateDialog.showModal();
+        curatorStateDisplay.innerHTML = `Curator state: ${curatorState.state_display[curatorState.annoyance]}`;
+        curatorState.annoyance += 1;
+        
+    });
 
 </pre>
 <div class="tear-off-div"></div>
@@ -396,33 +396,33 @@ annoyCurator.addEventListener("click", function(event) {
 <p>Okay, now for the text selection event. Highlight some of the text in the smiley face below:</p>
 <code id="select-display">No text highlighted</code>
 <pre id="select-target">
-, ; ,   .-'"""'-.   , ; ,
-\\|/  .'         '.  \|//
-\-;-/   ()   ()   \-;-/
-// ;               ; \\
-//__; :.         .; ;__\\
-`-----\'.'-.....-'.'/-----'
-    '.'.-.-,_.'.'
-        '(  (..-'
-        '-'
+  , ; ,   .-'"""'-.   , ; ,
+  \\|/  .'         '.  \|//
+   \-;-/   ()   ()   \-;-/
+   // ;               ; \\
+  //__; :.         .; ;__\\
+ `-----\'.'-.....-'.'/-----'
+        '.'.-.-,_.'.'
+          '(  (..-'
+            '-'
 </pre>
 <p>Ok I was annoyed because the tag that mirrors the highlighted code isn't respecting space characters, but then I realized oops <code>&lt;code&gt;</code> tags don't do that, only <code>&lt;pre&gt;</code>s do. So here's a pre that does: <pre id="display-select">no text highlighted</pre></p>
 <p>Here's the code for that.</p>
 <div class="pre-container">
 <div class="tear-off-div"></div>
 <pre>
-// highlight selection code
-const selectDisplay = document.getElementById("select-display");
-const displaySelect = document.getElementById("display-select");
+    // highlight selection code
+    const selectDisplay = document.getElementById("select-display");
+    const displaySelect = document.getElementById("display-select");
 
-const selectTarget = document.getElementById("select-target");
-selectTarget.addEventListener('mouseup', () => {
-    const highlightedText = window.getSelection();
-    if (highlightedText) {
-        selectDisplay.innerHTML = highlightedText;
-        displaySelect.innerHTML = highlightedText;
-    }
-})
+    const selectTarget = document.getElementById("select-target");
+    selectTarget.addEventListener('mouseup', () => {
+        const highlightedText = window.getSelection();
+        if (highlightedText) {
+            selectDisplay.innerHTML = highlightedText;
+            displaySelect.innerHTML = highlightedText;
+        }
+    })
 
 </pre>
 <div class="tear-off-div"></div>
@@ -439,7 +439,46 @@ selectTarget.addEventListener('mouseup', () => {
 <p>COOL...</p>
 <pre id="parent-display">Nothing selected yet</pre>
 <iframe src="smiley.html"></iframe>
-<p>YAY I DID IT. </p>
+<p>YAY I DID IT. Well OK Gemini Flash 2.0 did it, but I thought of it and read the documentation and then copied and pasted what truly appeared to be exactly the same code from Gemini when mine didn't work.</p>
+<p>My code that didn't work:</p>
+<div class="pre-container">
+<div class="tear-off-div"></div>
+<pre>
+    function receiveMessage(event) {
+        const expectedOrigin = "*"; // make this be your domain
+        if (event.origin !== expectedOrigin) {
+            return;
+        }
+
+        const receivedData = event.data;
+        console.log(receivedData);
+        console.log("data received");
+    }
+</pre>
+<div class="tear-off-div"></div>
+</div>
+
+<p>Gemini's code that does work:</p>
+<div class="pre-container">
+<div class="tear-off-div"></div>
+<pre>
+    const parentDisplay = document.getElementById("parent-display");
+
+    function receiveMessage(event) {
+        const expectedOrigin = "*"; // be very careful using this
+        //  make this your domain
+        if (expectedOrigin !== "*" && event.origin !== expectedOrigin) {
+            console.warn("Received message from untrusted origin:", event.origin);
+            return; // crucial security step.
+        }
+
+        const receivedData = event.data;
+        parentDisplay.innerHTML = receivedData;
+    }
+</pre>
+<div class="tear-off-div"></div>
+</div>
+<p>Ok. So that took about 3 hours to do all those. Feeling proud of myself!</p>
 
 
 
